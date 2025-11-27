@@ -1,0 +1,27 @@
+<div class="parent">
+    <div class="Top">
+        <h2><i class="fa-solid fa-shop">ShopEase</i></h2>
+    </div>
+    <div class="bottom">
+        <form action=""[formGroup]="loginform"  >
+            <h1><span class="glyphicon glyphicon-log-in"></span>Login</h1>
+            <label for="">Email or Mobile</label><br>
+            <input type="text" name="" id="" formControlName="emailOrMobile" placeholder="Enter you user name or Mobile Number"><br>
+            <label for="" class="password-box">Password</label>
+            <div class="password-box">
+                <input [type]="showPassword ? 'text' : 'password'" id="password"  formControlName="password" placeholder="Enter your Password">
+
+                <!-- eye icon -->
+                <i [class]="showPassword? 'bi bi-eye' : 'bi bi-eye-slash'" (click)="togglePasswordVisibility()"></i>
+            </div>
+
+            <br>
+            <div class="A">
+            <input type="checkbox" name="" id="">Remember Me
+            <a href="" routerLink="/forgotpassword">Forgot Password?</a><br>
+            </div>
+            <button class="btn btn-primary" type="submit" routerLink="/dashboard" (click)="login()"><i class="fa-solid fa-arrow-right"></i> Login</button>
+            <p>Don't have an account? <a href="" routerLink="/signup">Sign Up</a> </p>
+        </form>
+    </div>
+</div>

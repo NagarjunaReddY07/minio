@@ -1,0 +1,228 @@
+/* NAVBAR */
+.navbar{
+    background-color:#0f5132; /* deep emerald */
+    margin-bottom: 0;
+}
+
+/* Search */
+.search{
+    width: 80%;
+}
+
+/* MIDDLE (unchanged) */
+.middle{
+    width: 100%;
+    height: 180px;
+    text-align: center;
+}
+.middle h1{
+    padding-top: 80px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.middle h3{
+    color: whitesmoke;
+}
+
+/* BOTTOM LAYOUT */
+.bottom{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #f4faf6;
+}
+.left{
+    width: 20%;
+    height: 100%;
+}
+.right{
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+/* FILTER FORM */
+form {
+  width: 280px;
+  padding: 20px 25px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(10, 60, 40, 0.15);
+  font-family: "Poppins", sans-serif;
+  margin-top: 60px;
+  border: 1px solid #d7e7df;
+}
+
+form h1 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 18px;
+  color: #0f5132;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: 600;
+  margin: 10px 0 5px;
+  color: #37443c;
+}
+
+/* Dropdowns */
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c9ded3;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 14px;
+  background: #f3f9f6;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: #0f5132;
+}
+
+/* Clear Filter Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #f76c24; /* warm orange */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e45f1c;
+}
+
+/* Icon */
+.bi-funnel {
+  color: #0f5132;
+  margin-right: 6px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #e2ece7;
+  box-shadow: 0 2px 8px rgba(10, 60, 40, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(10, 60, 40, 0.18);
+}
+
+/* Product Image */
+.product-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #edf6f1;
+}
+
+/* Product Title */
+.product-title {
+  margin: 12px 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a3a2a;
+}
+
+/* Rating */
+.product-rating {
+  color: #ffb400;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.product-rating span {
+  color: #666;
+}
+
+/* Pricing Section */
+.product-price-section {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price {
+  color: #0f5132;  /* emerald */
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #9aa6a0;
+}
+
+.discount {
+  background: #1e7a46;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Buttons */
+.product-buttons {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.view-btn,
+.add-btn {
+  flex: 1;
+  padding: 8px 0;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* View Button */
+.view-btn {
+  background: #e6f5ed;
+  color: #0f5132;
+}
+
+.view-btn:hover {
+  background: #d1ecdf;
+}
+
+/* Add Button */
+.add-btn {
+  background: #1e7a46;  /* darker emerald */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.add-btn:hover {
+  background: #19663a;
+}
+
+/* Extra radius */
+.product-card {
+  border-radius: 15px;
+  overflow: hidden;
+}

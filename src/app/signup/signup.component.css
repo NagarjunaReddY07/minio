@@ -1,0 +1,137 @@
+/* Overall page container */
+.parent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #009688, #004d40);
+  padding: 20px;
+}
+
+/* ShopEase title */
+.Top h2 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+/* Card container */
+.bottom {
+  width: 100%;
+  max-width: 440px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Form title */
+.bottom h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #004d40;
+}
+
+/* Labels */
+.bottom label {
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #004d40;
+}
+
+/* Inputs */
+.bottom input[type="text"],
+.bottom input[type="email"],
+.bottom input[type="number"],
+.bottom input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 7px 0 14px 0;
+  border-radius: 10px;
+  border: 1px solid #99ccc2;
+  font-size: 15px;
+  background: #f3f9f8;
+  transition: all 0.25s ease;
+}
+
+/* Focus effect */
+.bottom input:focus {
+  border-color: #009688;
+  background: #ffffff;
+  box-shadow: 0 0 8px rgba(0,150,136,0.3);
+  outline: none;
+}
+
+/* Password eye icon box */
+.password-box,
+.confirm-box {
+  position: relative;
+}
+
+.password-box i,
+.confirm-box i {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  color: #777;
+  font-size: 18px;
+}
+
+/* Terms and conditions row */
+.A {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.A a {
+  color: #009688;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.A a:hover {
+  text-decoration: underline;
+}
+
+/* Signup button */
+.bottom button {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #009688;
+  border: none;
+  transition: 0.25s;
+}
+
+.bottom button:hover {
+  background-color: #00897b;
+  transform: translateY(-1px);
+}
+
+/* Already have account */
+.bottom p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.bottom p a {
+  color: #009688;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bottom p a:hover {
+  text-decoration: underline;
+}

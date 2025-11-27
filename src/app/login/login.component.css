@@ -1,0 +1,112 @@
+/* Parent container - center everything */
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6c63ff, #3f3d56);
+  padding: 20px;
+}
+
+/* ShopEase header */
+.Top h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.bottom {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Form title */
+.bottom h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Labels */
+.bottom label {
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Inputs */
+.bottom input[type="text"],
+.bottom input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 15px 0;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+/* Input focus effect */
+.bottom input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108,99,255,0.4);
+  outline: none;
+}
+
+/* Password box - icon inside input */
+.password-box {
+  position: relative;
+}
+
+.password-box i {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  color: #777;
+  font-size: 18px;
+}
+
+/* Remember me + forgot password row */
+.A {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Login button */
+.bottom button {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+/* Sign-up link */
+.bottom p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.bottom a {
+  color: #6c63ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}

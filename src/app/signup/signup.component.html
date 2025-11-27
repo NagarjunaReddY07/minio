@@ -1,0 +1,40 @@
+<div class="parent">
+    <div class="Top">
+        <h2><i class="fa-solid fa-shop"> ShopEase</i></h2>
+    </div>
+    <div class="bottom">
+        <form [formGroup]="signupform"  (ngSubmit)="signup()">
+            <h1><i class="bi bi-person-plus"></i>
+
+ Sign Up</h1>
+            <label >Name</label>
+            <input type="text"   placeholder="Enter your full name" formControlName="name"><br>
+            <label for="">Email</label>
+            <input type="email"  placeholder="Enter your mail" formControlName="email"><br>
+            <label for="">MobileNumber</label>
+            <input type="number" placeholder="Enter your mobile number" formControlName="mobile">
+            <label for="" class="password-box">Password</label>
+            <div class="password-box">
+                <input type="password" placeholder="Enter  Password (min 6 characters)" formControlName="password">
+
+                <!-- eye icon -->
+                <i class="fa fa-eye" id="togglePassword"></i>
+            </div>
+            <label for="">ConfirmPassword</label>
+            <div class="confirm-box">
+                <input type="password" id="password" placeholder="Enter  Password (min 6 characters)">
+
+                <!-- eye icon -->
+                <i class="fa fa-eye" id=""></i>
+            </div>
+            <br>
+            <div class="A">
+            <input type="checkbox" name="" id="">I agree to the 
+            <a href="">Terms&Conditions</a><br>
+            </div>
+            <button class="btn btn-primary" ><i class="bi bi-person-plus"></i>
+Sign Up</button>
+            <p>Already have an account <a href=""  routerLink="/login">Login</a> </p>
+        </form>
+    </div>
+</div>

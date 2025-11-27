@@ -1,0 +1,46 @@
+<h2 class="mb-4 text-center fw-bold">Add New Product</h2>
+
+<form [formGroup]="productForm" (ngSubmit)="submit()" class="p-4 border rounded shadow-sm bg-light">
+
+  <div class="mb-3">
+    <label class="form-label">Image URL</label>
+    <input type="text" class="form-control" formControlName="imageUrl" placeholder="Enter product image URL">
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Product Name</label>
+    <input type="text" class="form-control" formControlName="name" placeholder="Enter product name">
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Category</label>
+    <input type="text" class="form-control" formControlName="category" placeholder="e.g. Electronics, Fashion, Home">
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Description</label>
+    <textarea class="form-control" formControlName="description" rows="3" placeholder="Enter product description"></textarea>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Brand</label>
+    <input type="text" class="form-control" formControlName="brand" placeholder="Enter brand name">
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label class="form-label">Price ($)</label>
+      <input type="number" class="form-control" formControlName="price" placeholder="Enter price">
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label class="form-label">Stock</label>
+      <input type="number" class="form-control" formControlName="stock" placeholder="Available stock quantity">
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
+    Submit
+  </button>
+
+</form>
