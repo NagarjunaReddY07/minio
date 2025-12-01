@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ButtonComponent {
 
+  login(){
+    alert("Button is working")
+  }
+
 }
