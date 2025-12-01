@@ -14,6 +14,7 @@ import { AddProductComponent } from './add-product/add-product.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ButtonComponent } from './button/button.component';
+import { ParagraphComponent } from './paragraph/paragraph.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ButtonComponent } from './button/button.component';
     AddProductComponent,
     CartComponent,
     ProductDetailsComponent,
-    ButtonComponent
+    ButtonComponent,
+    ParagraphComponent
   ],
   imports: [
     BrowserModule,

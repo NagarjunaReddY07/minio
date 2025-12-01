@@ -10,6 +10,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { AuthGuard } from './auth.guard';
 import { ButtonComponent } from './button/button.component';
+import { ParagraphComponent } from './paragraph/paragraph.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path:"add-product",component:AddProductComponent},
   {path:"product-details/:id",component:ProductDetailsComponent},
   {path:"cart",component:CartComponent},
-  {path:"button",component:ButtonComponent}
+  {path:"button",component:ButtonComponent},
+  {path:"paragraph",component:ParagraphComponent}
 
 ];
 
