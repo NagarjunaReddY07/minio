@@ -9,6 +9,7 @@ import { AddProductComponent } from './add-product/add-product.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 import { AuthGuard } from './auth.guard';
+import { ButtonComponent } from './button/button.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:"admin",component:AdminComponent},
   {path:"add-product",component:AddProductComponent},
   {path:"product-details/:id",component:ProductDetailsComponent},
-  {path:"cart",component:CartComponent}
+  {path:"cart",component:CartComponent},
+  {path:"button",component:ButtonComponent}
 
 ];
 
