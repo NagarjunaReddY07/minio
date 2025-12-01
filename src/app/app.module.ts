@@ -13,6 +13,7 @@ import { AdminComponent } from './admin/admin.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { ButtonComponent } from './button/button.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     AdminComponent,
     AddProductComponent,
     CartComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
